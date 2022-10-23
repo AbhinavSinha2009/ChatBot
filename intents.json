@@ -1,0 +1,47 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["hi", "hello", "is anyone there?", "how are you", "how are you doing", "what's up,", "yo", "sup", "what's good", "help", "help me"],
+   "responses": ["Hi! I am A.D.A.M, aka: Articulated Dynamic Adaptive Mechanism. I am here to help newcomers to programming. Ask me any questions you have!"],
+   "context_set": ""
+  },
+  {"tag": "goodbye",
+   "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye"],
+   "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+   "context_set": ""
+  },
+  {"tag": "references",
+   "patterns": ["learn", "teach", "resources", "references", "links", "classes", "programming", "websites", "guide", "tutorial", "basics  "],
+   "responses": ["Here are is a website: https://www.w3schools.com/", "A good book to read: Headfirst"],
+   "context_set": ""
+  },
+  {"tag": "languages",
+   "patterns": ["programming", "languages", "python"],
+   "responses": ["You can call me A.D.A.M.", "I'm A.D.A.M.!", "I'm A.D.A.M. aka Articulated Dynamic Adaptive Mechanism."],
+   "context_set": ""
+  },
+
+  {"tag": "friend",
+  "patterns": ["I don't have a friend", "Will you be my friend"],
+  "responses": ["I can be your friend", "Will you let me be your friend", "Can I be your friend"],
+  "context_set": ""
+ },
+
+ {"tag": "innovation",
+  "patterns": ["Give me an idea", "What should I do"],
+  "responses": ["create speacial shoes", "learn about the theory of relativity", "Learn quantum mechanics", "you should touch grass"],
+  "context_set": ""
+ }, 
+
+ {"tag": "project",
+  "patterns": ["What should I do for my science project", "What should I do for my social studies project", "What should I do for my computer science project"],
+  "responses": ["Make a diagram", "Make something that can help people", "Make something creative!"],
+  "context_set": ""
+ }, 
+
+ {"tag": "help",
+  "patterns": ["I need mental help", "Will you help me"],
+  "responses": ["You should contact someone", "There's not much I can do for you"],
+  "context_set": ""
+ }
+]
+}
